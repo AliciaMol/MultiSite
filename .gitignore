@@ -1,0 +1,20 @@
+# Ignorar core de WordPress
+/wp-admin/
+/wp-includes/
+
+# --- Respaldar wp-content completo, salvo languages ---
+/wp-content/languages/
+
+# --- Ignorar archivos PHP sueltos en la raíz ---
+/*.php
+
+# Ignorar uploads (opcional si no querés respaldar imágenes)
+/wp-content/uploads/
+
+# Ignorar cachés
+*.log
+*.cache
+
+# Archivos sensibles
+#wp-config.php
+#.htaccess
